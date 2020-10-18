@@ -46,7 +46,7 @@
         var pathName = window.location.pathname;
         if (pathName == "/") {} else {
             pathInfo = pathName.replace("/","");
-            var newURL = "https://script.google.com/macros/s/AKfycbyGhEELjkavlmjWrSfdWBJAeAxgT1OPIoKyM-xP/exec" + pathInfo;
+            var newURL = "https://script.google.com/macros/s/AKfycbyGhEELjkavlmjWrSfdWBJAeAxgT1OPIoKyM-xP/exec?" + pathInfo;
             window.open(newURL, '_top');
         }
     </script>
